@@ -37,8 +37,10 @@ python indexer.py
 
 # nyalakan server
 uvicorn main:app --reload
-
-# nyalakan frontend
+```
+### 2. Setup Frontend (React & Tailwind)
+Buka terminal dan arahkan ke dalam folder `frontend` proyek ini.
+```bash
 cd frontend
 npm install
 npm run dev
